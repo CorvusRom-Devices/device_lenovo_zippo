@@ -1,26 +1,28 @@
 #
-# Copyright (C) 2022 The Xtended Project
+# Copyright (C) 2022 The Corvus Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 $(call inherit-product, device/lenovo/zippo/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_BUILD_MAINTAINER := EinarG. 
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
-# FoD Animations
-EXTRA_UDFPS_ANIMATIONS := true
+# CorvusOS
+RAVEN_LAIR=Official
+CORVUS_MAINTAINER=EinarG
+USE_GAPPS=true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo L78051
-PRODUCT_NAME := xtended_zippo
+PRODUCT_NAME := corvus_zippo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
