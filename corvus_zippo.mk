@@ -17,6 +17,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 RAVEN_LAIR=Official
 CORVUS_MAINTAINER=EinarG
 USE_GAPPS=true
+FOD_RESOURCES := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
