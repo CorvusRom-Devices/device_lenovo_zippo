@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "github",
+   "repository": "CorvusRom-Devices/device_lenovo_sm8150-common",
+   "target_path": "device/lenovo/sm8150-common",
+   "branch": "13"
+ },
+ {
+   "remote": "github",
+   "repository": "CorvusRom-Devices/vendor_lenovo",
+   "target_path": "vendor/lenovo",
+   "branch": "13"
+ }
+]
